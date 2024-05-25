@@ -2,6 +2,9 @@ from flask import Flask, render_template, request
 import google.generativeai as palm
 import replicate
 import os
+import sqlite3
+import datetime
+import flask import Markup
 
 flag = 1
 name = ""
